@@ -29,7 +29,9 @@ class MainActivity : AppCompatActivity() {
             g1.adapter = Myadapter(this)
         }
         else{
-            Toast.makeText(this@MainActivity,"Give Permission",Toast.LENGTH_LONG).show()
+           // Toast.makeText(this@MainActivity,"Give Permission",Toast.LENGTH_LONG).show()
+             Toast.makeText(this@MainActivity,"Give Permission by me",Toast.LENGTH_LONG).show()
+            
         }
     }
 }
